@@ -7,36 +7,31 @@
     
 </head>
 <body>
-    <div class="navbar">
-        <a href="https://tayseer2005.github.io/cc/">DRINK</a>
-        <a href="https://tayseer2005.github.io/ff/">SANDWICH</a>
-        <a href="#sweet">SWEET</a>
-    </div>
     <header>
         <h1>The Cause</h1>
         <p>Enjoy a peaceful atmosphere with delicious food and drinks to help you focus.</p>
     </header>
     <main>
         <section class="menu">
-            <h2>Hot Drinks non-coffee</h2>
+            <h2>Sandwich</h2>
             <ul>
-                <li>Matcha <span class="price">3.75JD</span></li>
-                <li>Hot Chocolate <span class="price">3.75JD</span></li>
-                <li>Chai Tea Spice <span class="price">3.75JD</span></li>
-                <li>Tea <span class="price">3.75JD</span></li>
+                <li>
+                    <img src="https://c.top4top.io/p_3237x0zrk1.jpeg" alt="Halloumi and pesto sandwich" class="menu-img">
+                    Halloumi and pesto sandwich <span class="price">3.75JD</span>
+                </li>
+                <li>
+                    <img src="https://h.top4top.io/p_32372rzws1.jpeg" alt="Chicken Caesar sandwich" class="menu-img">
+                    Chicken Caesar sandwich <span class="price">3.75JD</span>
+                </li>
             </ul>
         </section>
+        <div class="navbar">
+            <a href="https://tayseer2005.github.io/cc/">DRINK</a>
+            <a href="https://tayseer2005.github.io/ff/">SANDWICH</a>
+            <a href="#sweet">SWEET</a>
+        </div>
 
-        <!-- قائمة المشروبات الساخنة بدون قهوة -->
-        <section class="non-coffee-hot-drinks">
-            <h2>Hot Drinks (Without Coffee)</h2>
-            <ul>
-                <li>American Coffee <span class="price">2.75JD</span></li>
-                <li>Latte <span class="price">3.75JD</span></li>
-                <li>Cappuccino <span class="price">3.75JD</span></li>
-                <li>Espresso <span class="price">2.25JD</span></li>
-            </ul>
-        </section>
+       
     </main>
     <style>
         /* تنسيق عام للصفحة */
@@ -78,7 +73,7 @@
             background-color: #f3f4f6; /* خلفية فاتحة */
             color: #333; /* نص باللون الداكن */
             line-height: 1.6;
-            background-image: url('https://k.top4top.io/p_3237lqanf1.jpeg');
+            background-image: url('https://h.top4top.io/p_32372rzws1.jpeg');
     background-size: cover; /* تجعل الخلفية تغطي كامل الشاشة */
     background-position: center; /* تجعل الصورة في منتصف الصفحة */
     background-repeat: no-repeat;
@@ -100,7 +95,7 @@
         header h1 {
             font-size: 3em;
             margin-bottom: 10px;
-            background-color:  #70667a;
+            background-color: #7b7783;
          
         }
 
@@ -108,7 +103,7 @@
         header p {
             font-size: 1.5em;
             color: #bdc3c7;
-            background-color:  #70667a;
+            background-color: #70687e;
             
         }
 
@@ -124,7 +119,7 @@
             padding: 30px;
             margin: 20px 0;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            background-color:  #70667a;
+            background-color: #8e8899;
         }
 
         /* تأثير hover على الأقسام عند المرور بالماوس */
@@ -137,7 +132,7 @@
             font-size: 2em;
             margin-bottom: 15px;
             color: #333;
-            background-color:  #70667a;
+            background-color: #968da8;
             
         }
 
@@ -169,14 +164,14 @@
 
         /* تنسيق الأسعار */
         .price {
-            color: #0e311d;
+            color: #225838;
             font-size: 1.2em;
             font-weight: bold;
         }
 
         /* تنسيق قائمة المشروبات الساخنة بدون قهوة */
         .non-coffee-hot-drinks {
-            background-color:  #70667a;
+            background-color: #45375f;
             padding: 30px;
             border-radius: 12px;
             margin-top: 30px;
@@ -188,6 +183,34 @@
             color: #1d4c6b; /* تغيير اللون عند المرور بالماوس */
             cursor: pointer;
         }
+        /* تنسيق العناصر داخل القائمة */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* تنسيق كل عنصر في القائمة */
+.menu li {
+    display: flex;
+    align-items: center; /* لضبط محاذاة الصورة والنص */
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* تنسيق الصورة */
+.menu-img {
+    width: 40px; /* حجم الصورة */
+    height: 40px; /* ارتفاع الصورة */
+    margin-right: 10px; /* المسافة بين الصورة والنص */
+    border-radius: 5px; /* لجعل الصورة دائرية قليلاً */
+}
+
+/* تأثير hover على العناصر */
+.menu li:hover {
+    background-color: #ecf0f1;
+    cursor: pointer;
+}
+
     </style>
 </body>
 </html>
